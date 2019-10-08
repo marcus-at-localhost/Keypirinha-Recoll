@@ -60,7 +60,7 @@ class recoll(kp.Plugin):
         output_str = output.decode("utf-8")
         self.dbg("Commands: {}".format(self.commands.strip()))
         self.dbg("Input: {}".format(user_input))
-        self.info(output_str)
+        self.dbg(output_str)
 
         idx = 0
         for line in output_str.splitlines():
