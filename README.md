@@ -16,10 +16,12 @@ Thanks to [@ueffel](https://github.com/ueffel/) for writing the majority of the 
 
 - Set `file_path` to `recoll.exe` if it's not in the default install path `"C:\\Program Files (x86)\\Recoll\\recoll.exe"`
 
-## TODO
+## Alternative use
 
 I tried to make additional Recoll command line arguments work (like change default sorting or ALL/ANY search or define a specific search index to be used), but it didn't work right away. At the end of the day, I think it's enough to perform a broad search via Keypirinha.
 
 In case you want to refine your search, you can [launch the Recoll GUI from Keypirinha with command line arguments](http://keypirinha.com/first.html#specify-arguments) and go from  there.
+
+Read more about [searching on the command line](https://www.lesbonscomptes.com/recoll/usermanual/usermanual.html#RCL.SEARCH.COMMANDLINE)
 
 [1]: [there](https://github.com/ueffel/Keypirinha-PackageControl#manually) you will also find how to install packages manually
